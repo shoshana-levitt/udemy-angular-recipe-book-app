@@ -13,6 +13,11 @@ export class RecipeListComponent implements OnInit {
       'Test description',
       'https://www.twopeasandtheirpod.com/wp-content/uploads/2018/02/Pasta-Pomodoro-2.jpg'
     ),
+    new Recipe(
+      'A Test Recipe',
+      'Test description',
+      'https://www.twopeasandtheirpod.com/wp-content/uploads/2018/02/Pasta-Pomodoro-2.jpg'
+    ),
   ];
   constructor() {}
   ngOnInit() {}
